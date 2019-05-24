@@ -4,7 +4,7 @@ import TipPercentage from "./TipPercentage";
 
 export default (props) => {
     return (
-        <div>
+        <div id="inputs">
             Bill: $<input type="text" 
                 value={props.bill}
                 onChange={props.validateAndUpdateBill} 
@@ -13,8 +13,7 @@ export default (props) => {
             <br/>
             Tip Percentage %: 
             <TipPercentage validateAndUpdateTipPercentage={props.validateAndUpdateTipPercentage} />
-            <br/>
-            <br/>
+            <br />
             <input type="checkbox" onChange={props.updateIsSplitTip}/> Split tip?
             <br/>
             <br/>

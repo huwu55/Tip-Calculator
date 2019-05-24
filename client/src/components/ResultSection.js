@@ -2,7 +2,7 @@ import React from "react";
 
 export default (props) => {
     return (
-        <div>
+        <div id="results">
             Total Tip: {props.tip}
             <br/><br/>
             Total Amount: {props.total}

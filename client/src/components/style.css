@@ -1,5 +1,37 @@
+#main {
+    /* height:100%; */
+    /* backdground-color:black; */
+}
+
+#tip-calculator {
+    /* margin-top: auto; */
+    height: 100vh;
+    /* width:100%;  */
+    position: relative;
+    background-color:white;
+    border:solid;
+    border-color:white;
+    border-radius: 5px;
+}
+
+.outer {
+    position: absolute;
+    top: 50%;
+    left:50%;   
+    transform: translate(-50%,-50%);
+        /* width: 50%; */
+}
+
+#inputs, #results {
+    float: left;
+    padding: 20px;
+    /* border: solid;
+    border-color: white;
+    border-left-color: darkgray; */
+}
+
 #tipPercentage {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #tipPercentage input {
