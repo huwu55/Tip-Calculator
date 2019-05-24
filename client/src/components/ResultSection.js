@@ -8,7 +8,7 @@ export default (props) => {
             Total Amount: {props.total}
             <br/><br/>
             { props.isSplitTip && (
-                <div>
+                <div id="splitTip">
                     Tip Per Person: {props.tip_per_person}
                     <br/><br/>
                     Total Per Person: {props.total_per_person}

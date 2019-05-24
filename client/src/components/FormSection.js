@@ -1,5 +1,6 @@
 import React from "react";
 import NumofPeople from "./NumofPeople";
+import TipPercentage from "./TipPercentage";
 
 export default (props) => {
     return (
@@ -10,10 +11,8 @@ export default (props) => {
             />
             <br/>
             <br/>
-            Tip Percentage : <input type="text"
-                value={props.tipPercentage}
-                onChange={props.validateAndUpdateTipPercentage}
-            />%
+            Tip Percentage %: 
+            <TipPercentage validateAndUpdateTipPercentage={props.validateAndUpdateTipPercentage} />
             <br/>
             <br/>
             <input type="checkbox" onChange={props.updateIsSplitTip}/> Split tip?

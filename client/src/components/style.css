@@ -1,3 +1,7 @@
-/* input {
-    //text-align: right;
-} */
+#tipPercentage {
+    margin-left: 20px;
+}
+
+#tipPercentage input {
+    margin: 5px;
+}
