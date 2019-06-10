@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tip-Calculator/static/css/main.e633139a.chunk.css",
+    "main.js": "/Tip-Calculator/static/js/main.cc24392c.chunk.js",
+    "main.js.map": "/Tip-Calculator/static/js/main.cc24392c.chunk.js.map",
+    "runtime~main.js": "/Tip-Calculator/static/js/runtime~main.e2c2edbe.js",
+    "runtime~main.js.map": "/Tip-Calculator/static/js/runtime~main.e2c2edbe.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/Tip-Calculator/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/Tip-Calculator/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/Tip-Calculator/index.html",
+    "precache-manifest.adfeb4684ff1902d8f0b8733d5ad24e1.js": "/Tip-Calculator/precache-manifest.adfeb4684ff1902d8f0b8733d5ad24e1.js",
+    "service-worker.js": "/Tip-Calculator/service-worker.js",
+    "static/css/main.e633139a.chunk.css.map": "/Tip-Calculator/static/css/main.e633139a.chunk.css.map"
+  }
+}
