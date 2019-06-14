@@ -12,7 +12,10 @@ export default (props) => {
             <br/>
             <br/>
             Tip Percentage %: 
-            <TipPercentage validateAndUpdateTipPercentage={props.validateAndUpdateTipPercentage} />
+            <TipPercentage 
+                validateAndUpdateTipPercentage={props.validateAndUpdateTipPercentage} 
+                tipPercentage={props.tipPercentage}
+            />
             <br />
             <input type="checkbox" onChange={props.updateIsSplitTip}/> Split tip?
             <br/>

@@ -9,7 +9,7 @@ export default (props) =>{
             <input type="button" className="btn btn-outline-success" value="18" onClick={props.validateAndUpdateTipPercentage} />
             <br></br>
             Or customize tip %: <input type="text"
-                placeholder="0"
+                placeholder="0" value={props.tipPercentage}
                 onChange={props.validateAndUpdateTipPercentage}
                 onFocus={props.validateAndUpdateTipPercentage}
             />

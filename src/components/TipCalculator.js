@@ -39,7 +39,7 @@ class TipCalculator extends React.Component {
         event.preventDefault();
 
         let tipPercentage = parseInt(event.target.value.replace(/[^\d]/, ''));
-
+        console.log(tipPercentage);
         if(!tipPercentage)    {
             tipPercentage = 0;
         }
