@@ -1,66 +1,40 @@
 # Tip-Calculator
 
-## The Challenge
+It's always tricky to know how much to tip, unless you're an arithmetic mastermind! This React application calculates the amount of tip per table, and even per person if split option is chosen. The tip calculator keeps track of the user input without a submit button. 
 
-It's always tricky to know how much to tip, unless you're an arithmetic mastermind!
+![Tip Calculator](tipCalculator.png)
 
+## Getting Started
+This part will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-
-Your task is to create a simple command-line (Node, Python or other) or front-end JavaScript application that will help calculate a tip at a restaurant for your server. No boilerplate code
-will be provided, so you are free to construct this however you would like. However, your application must:
-
-
-
-* Take in the value of the bill
+This is a React application. After cloning the project from Github, enter `npm install` in terminal inside Tip-Calculator directory. To run this project, enter `yarn start`.
 
 
-* Take in the desired tip percentage
+
+## Usage Example
+This tip calculator:
+
+* Takes in the value of the bill
 
 
-* Include the option to split the tip amount by number of people at the table
-
- 
-
-* The application should then calculate the amount of tip per table (or per person if the split option is chosen) and return that value to the user.
-
- 
-
-BONUS:
-
-* Create a simple UI so that this can be used in a browser
+* Takes in the desired tip percentage
 
 
-* Deploy to your favorite hosting service (Heroku, Netlify, etc.)
-
- 
-
-## The Process 
-
-Career Services will evaluate the submissions and come to a consensus on a winner. You will be evaluated upon completion of the requirements of the challenge, code cleanliness, and formatting. Career Services will evaluate the entries and pick a winning submission and will announce on July 12, 2019. 
-
-### Restraints and Guidelines...
-
-Please read these thoroughly. We will validate your submission based on the following criteria:
-
-* Your code should be clean and readable. Don't neglect the comments!
+* Includes the option to split the tip amount by number of people at the table
 
 
-* You must push your code in a git repository and submit git repository URL to the challenge email.
+* The application then calculates the amount of tip per table (or per person if the split option is chosen) and returns that value to the user.
 
+### Error Handling
+* Only allow digits enter as inputs
+    * no letters, special characters, and negative signs, etc.
 
-* Commit early, commit often; we will look at the progression of your code throughout application development. Consider your commits valuable. 
+## Deployed to Github
+Check out this project here: https://huwu55.github.io/Tip-Calculator/
 
+## Meta
 
-* You shouldn't need any external libraries to complete this application... BUT if you do, you need to document it in your readme and let us know why it was a better choice.
-
- 
-
-### Some additional requirements for your application:
-
-* The bill value must be a positive float but your application must handle user input that might be a negative or 0 dollar amount (i.e. error handling).
-
-
-* The user input percentage for the tip must be a positive float.
-
-
-* The returned value must be a float rounded to two decimal points (i.e. accurate dollars and cents).
+Huiling Wu 
+* huwu@ucdavis.edu
+* https://github.com/huwu55
+* https://www.linkedin.com/in/huwu55/
